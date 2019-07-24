@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <h2>Pomyśl liczbę od 0 do 1000 , a ja ją zgadnę w max. 10 próbach</h2>
+    Zgaduję: {% result %}
+    <form action="/" method="POST">
+        <fieldset>
+            <legend>Wybierz opcję:</legend>
+            <input type="submit" name="more" value="Więcej">
+            <input type="submit" name="less" value="Mniej">
+            <input type="submit" name="bullseye" value="Trafiłeś">
+        </fieldset>
+    </form>
+</body>
+</html>
